@@ -13,7 +13,7 @@ import java.util.Map;
  */
 
 public class Main {
-
+        
         //Local path to the repository
         public static String repositoryPath = "/Users/project/";
 
@@ -21,20 +21,19 @@ public class Main {
         public static String bugPath = "/Users/bugs/";
 
         //Local path to the .json output file
-        public static String output = "/Users/output.json";
+        public static String outputPath = "/Users/output.json";
 
         //The fix commit is an outlier when the number of changed files is greater than
-        public static int outlierCommit = 4;
+        public static int commitOutlier = 4;
 
         //Specify the language in the repository to be analysed
         public static int langauge =  Language.JAVA;
 
         public static void main(String[] args) throws FileNotFoundException {
 
-            App.run(repositoryPath, bugPath, output, langauge, outlierCommit);
+            App.run(repositoryPath, bugPath, outputPath, langauge, commitOutlier);
 
         }
-
 
 
 }
