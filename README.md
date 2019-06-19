@@ -2,7 +2,8 @@
 This repository contains the algorithm implementation described in [A Framework for Evaluating the Results of the SZZ Approach for Identifying Bug-Introducing Changes](https://users.encs.concordia.ca/~shang/pubs/TSE_Daniel.pdf)
 
 ### Particulars
-- Details about this code, can be found in the work [??]()
+- Details about this code, can be found in the work [Reproduzindo Algoritmos para Detecção de Pontos
+de Inserção de Bugs](https://drive.google.com/file/d/1fAZAJDNPCYtj8lZmgSpNhys_ZT-w242y/view?usp=sharing)
 - For non linux users, you must install the GNUDiff tool
 
 ### Use instructions
